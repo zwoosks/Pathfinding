@@ -27,6 +27,8 @@ public class Pathfinding extends JavaPlugin implements Listener
 		System.out.println("[" + this.getDescription().getName() + "] v" + this.getDescription().getVersion() + " disabled!");
 	}
 	
+	// To remove
+	
 	Location[] path;
 	Material[] mat;
 	Byte[] data;
