@@ -74,13 +74,13 @@ public class CommandManager implements CommandExecutor {
 			@Override
 			public void run()
 			{
-				resetTest();
+				resetCalculate();
 			}
 		}, 80L);
 	}
 	
 	@SuppressWarnings("deprecation")
-	public void resetTest() {
+	public void resetCalculate() {
 		for(int i = 0; i < path.length; i++)
 		{
 			path[i].getBlock().setType(mat[i]);
