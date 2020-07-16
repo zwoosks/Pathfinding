@@ -1,0 +1,15 @@
+main: main.Pathfinding
+name: PathFindingPL
+version: '1.0'
+author: zwoosks
+website: zwoosks.software
+commands:
+  set1:
+   description: Set first location
+   usage: /<command>
+  set2:
+   description: Set second location
+   usage: /<command>
+  pathfinding:
+   description: Find the path
+   usage: /<command>
